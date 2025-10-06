@@ -9,18 +9,22 @@
 
 CodeXperience é um evento de programação que acontece em Juiz de Fora, MG, com foco em inovação, tecnologia e aprendizado colaborativo. Explore as mais recentes tendências em desenvolvimento de software, participe de workshops práticos, e conecte-se com outros desenvolvedores.
 
-## 🚀 Demo
+## 🚀 Projeto
+
+Evolução a cada edição do Evento.
+
+### 🚀 Demo
 
 Confira o site oficial do evento [aqui](https://codexperience.com.br/).
 
-## 🛠️ Tecnologias Utilizadas
+### 🛠️ Tecnologias Utilizadas
 
 - **React + Vite** - Biblioteca para construir interfaces de usuário
 - **Tailwind CSS** - Framework CSS utilitário
 - **TypeScript** - Superset JavaScript para tipagem estática
 - **EsLint** - Armazenamento de arquivos na nuvem
 
-## 🧩 Funcionalidades
+### 🧩 Funcionalidades
 
 - **Contadores regressivos** para o início do evento
 - **Incorporação de mapas do Google Maps** para exibir a localização do evento
@@ -28,6 +32,19 @@ Confira o site oficial do evento [aqui](https://codexperience.com.br/).
 - **Sistema de navegação suave** para uma experiência de usuário fluida
 - **Renderização dinâmica de carrosséis de imagens** 
 - **Efeito parallax** 
+
+### Lista de tarefas em Desenvolvimento - 2025
+
+#### Inserir
+
+- [] fazer da página da edição 2024 uma opção do menu
+- [] contador regressivo 
+
+#### Remover
+
+- [] programação 
+- [] patrocinadores
+
 
 ## 📦 Instalação e Uso
 
