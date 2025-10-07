@@ -127,7 +127,7 @@ Trataremos a lista de novas funcionalidades e ajustes no design para a nova edi�
 
 ### Inserir
 
-- [] fazer da página da edição 2024 uma opção do menu
+- [x] fazer da página da edição 2024 uma opção do menu
 - [] contador regressivo 
 - [] data e local : CONFIRMADO
 - [] patrocinador : CONFIRMADO
