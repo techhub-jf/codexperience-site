@@ -15,9 +15,10 @@ export default function Hero() {
         className='absolute h-48 left-50 z-50 sm:h-[220px] md:top-52 md:h-[300px]'
         alt="Logo Code"
       />
-
       <Header />
-      <div className='bg-black w-full h-full absolute opacity-60'></div>
+      <div className='bg-black w-full h-full absolute opacity-60'>
+        
+      </div>
       <img
         src={codeMedium}
         srcSet={`${codeSmall} 600w, ${codeMedium} 1200w, ${codeLarge} 1800w`}
