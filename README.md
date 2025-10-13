@@ -128,16 +128,19 @@ Trataremos a lista de novas funcionalidades e ajustes no design para a nova edi�
 ### Inserir
 
 - [x] fazer da página da edição 2024 uma opção do menu
-- [] contador regressivo 
-- [] data e local : CONFIRMADO
+- [ ] na versão 2024: 
+    - [ ] inserir um botão para ir para a versão 2025
+    - [ ] adicionar "edição 2024" com destaque 
+- [x] contador regressivo 
+- [x] data e local : CONFIRMADO
 - [] patrocinador : CONFIRMADO
 - [] inserir imagens do evento
-- [] proposta de apoio 2025
+- [x] proposta de apoio 2025 (apresentei para a VOL)
 - [] verificar google maps 
 
 ### Remover
 
-- [] programação 
+- [x] programação 
 - [] patrocinadores
 
 ## 📦 Instalação e Uso

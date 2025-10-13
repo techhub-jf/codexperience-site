@@ -25,10 +25,17 @@ const schedule: ScheduleItem[] = [
 
 const ScheduleTable: React.FC = () => {
   return (
+
+    <div id='2' className='h-full w-full flex flex-col items-center bg-black pt-20 pb-8 gap-4 sm:gap-16'>
+            <h3 className="text-white text-center px-2 text-x sm:text-6xl max-w-72 sm:max-w-xl lg:max-w-5xl">
+            Se preparem porque a programação serão massa!
+          </h3>   
+        </div>
+    /*
     <div id="4" className="bg-black p-4 text-white">
-      {/* Título Principal */}
+        Título Principal  
       <div className="hidden md:block overflow-x-auto lg:max-w-7xl m-auto mb-32">
-        {/* Tabela para telas grandes */}
+          Tabela para telas grandes  
         <table className="min-w-full border border-green-500">
           <thead>
             <tr className="bg-gray-800">
@@ -50,7 +57,7 @@ const ScheduleTable: React.FC = () => {
             </tr>
           </thead>
 
-          {/* Título das Salas */}
+            Título das Salas 
           <thead>
             <tr className="bg-gray-800">
               <th className="px-4 py-2 border border-green-500"></th>
@@ -61,7 +68,7 @@ const ScheduleTable: React.FC = () => {
           </thead>
           <tbody>
             {schedule.map((item, index) => {
-              // Verifica se room2 e room3 estão ausentes
+               Verifica se room2 e room3 estão ausentes
               const isRoom1Only = !item.room2 && !item.room3;
 
               return (
@@ -77,7 +84,7 @@ const ScheduleTable: React.FC = () => {
                       <span className="text-white text-center">Almoço</span>
                     )}
                   </td>
-                  {/* Renderiza room2 e room3 apenas se não for a linha de almoço ou se room1 não for a única sala */}
+                    Renderiza room2 e room3 apenas se não for a linha de almoço ou se room1 não for a única sala  
                   {!isRoom1Only && (
                     <>
                       <td className={`px-4 py-2 border border-green-500 ${item.time === "11:50" ? "text-[#be73ed]" : ""}`}>
@@ -110,7 +117,7 @@ const ScheduleTable: React.FC = () => {
       </div>
 
       <div className="md:hidden space-y-4 max-w-[92%] m-auto">
-        {/* Versão em cards para mobile */}
+          Versão em cards para mobile  
         <h2 className="text-2xl font-bold mb-4">Programação</h2>
         <div className="p-4 border border-green-500 rounded-lg bg-gray-800 mb-4">
           <p className="text-lg font-semibold">08:00 - Credenciamento</p>
@@ -151,7 +158,7 @@ const ScheduleTable: React.FC = () => {
           </div>
         ))}
       </div>
-    </div>
+    </div>*/
   );
 };
 
