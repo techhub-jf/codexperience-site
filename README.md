@@ -1,26 +1,30 @@
 
 # CodeXperience
 
+CodeXperience é um evento de programação que acontece em Juiz de Fora, MG, com foco em inovação, tecnologia e aprendizado colaborativo. Explore as mais recentes tendências em desenvolvimento de software, participe de workshops práticos, e conecte-se com outros desenvolvedores.
+
 ![CodeXperience Logo](https://live.staticflickr.com/65535/53919991108_4100f6c12a_n.jpg)
 
 [![Website](https://img.shields.io/badge/website-online-brightgreen)](https://codexperience.com.br/)
 [![GitHub issues](https://img.shields.io/github/issues/FernandoSegregio/CodeXperience)](https://github.com/FernandoSegregio/CodeXperience/issues)
 [![GitHub license](https://img.shields.io/github/license/FernandoSegregio/CodeXperience)](https://github.com/FernandoSegregio/CodeXperience/blob/main/LICENSE)
 
-CodeXperience é um evento de programação que acontece em Juiz de Fora, MG, com foco em inovação, tecnologia e aprendizado colaborativo. Explore as mais recentes tendências em desenvolvimento de software, participe de workshops práticos, e conecte-se com outros desenvolvedores.
+## 🚀 Projeto
 
-## 🚀 Demo
+Evolução a cada edição do Evento.
+
+### 🚀 Demo
 
 Confira o site oficial do evento [aqui](https://codexperience.com.br/).
 
-## 🛠️ Tecnologias Utilizadas
+### 🛠️ Tecnologias Utilizadas
 
 - **React + Vite** - Biblioteca para construir interfaces de usuário
 - **Tailwind CSS** - Framework CSS utilitário
 - **TypeScript** - Superset JavaScript para tipagem estática
 - **EsLint** - Armazenamento de arquivos na nuvem
 
-## 🧩 Funcionalidades
+### 🧩 Funcionalidades
 
 - **Contadores regressivos** para o início do evento
 - **Incorporação de mapas do Google Maps** para exibir a localização do evento
@@ -28,6 +32,117 @@ Confira o site oficial do evento [aqui](https://codexperience.com.br/).
 - **Sistema de navegação suave** para uma experiência de usuário fluida
 - **Renderização dinâmica de carrosséis de imagens** 
 - **Efeito parallax** 
+ 
+### 📁 Estrutura de Pastas
+
+```bash
+CODExPERIENCE-SITE/
+├── Docs/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Carrousel/
+│   │   │   └── index.tsx
+│   │   ├── Countdown/
+│   │   │   └── index.tsx
+│   │   ├── Divider/
+│   │   │   └── index.tsx
+│   │   ├── Footer/
+│   │   │   └── index.tsx
+│   │   ├── Header/
+│   │   │   ├── mocks/
+│   │   │   │   └── index.ts
+│   │   │   └── index.tsx
+│   │   ├── Hero/
+│   │   │   └── index.tsx
+│   │   ├── Location/
+│   │   │   └── index.tsx
+│   │   ├── Parallax/
+│   │   │   └── index.tsx
+│   │   ├── Partners/
+│   │   │   └── index.tsx
+│   │   ├── Pass/
+│   │   │   └── index.tsx
+│   │   ├── Schedule/
+│   │   │   └── index.tsx
+│   │   └── Talks/
+│   │       └── index.tsx
+│   ├── utils/
+│   │   └── classNames.tsx
+│   ├── App.tsx
+│   └── main.tsx
+├── .eslintrc.cjs
+├── .gitignore
+├── .nvmrc
+├── index.html
+├── index.css
+├── LICENSE
+├── package.json
+├── postcss.config.js
+├── pwa-assets.config.ts
+├── README.md
+├── robots.txt
+├── tailwind.config.js
+├── tsconfig.json
+├── tsconfig.node.json
+├── vercel.json
+├── vite.config.ts
+├── vite-env.d.ts
+├── yarn.lock
+└── PWA/
+    ├── PWA-Badge.css
+    └── PWA-Badge.tsx
+````
+ 
+### 🧱 Componentes da Página 
+
+| **Componente**   | **Função Principal**                                                                 |
+|------------------|--------------------------------------------------------------------------------------|
+| **Hero**         | Seção inicial (banner principal com logotipo, chamada para ação e tema do evento).  |
+| **Countdown**    | Exibe contagem regressiva para a data do evento.                                    |
+| **Talks**        | Lista das palestras e palestrantes confirmados.                                     |
+| **ScheduleTable**| Tabela com a programação detalhada do evento.                                       |
+| **Parallax**     | Seção visual com efeito parallax, usada para transições e impacto visual.           |
+| **Location**     | Mostra o local físico do evento (mapa, endereço e instruções).                      |
+| **Divider**      | Espaçamento entre seções, ajustável via `height` prop.                              |
+| **Pass**         | Informações sobre ingressos, passes ou inscrições.                                  |
+| **Partners**     | Logos e informações dos patrocinadores e parceiros.                                 |
+| **Footer**       | Rodapé com links úteis e direitos autorais.                                         |
+ 
+### Versões do projeto
+
+- Branches
+   - main
+   - dev-v2024
+   - dev-v2025
+  
+- Configuração do Projeto no Vercel
+  - codexperience-2024 → domínio codexperience.com.br/2024
+  - codexperience-2025 → domínio principal codexperience.com.br
+
+## Versão 2025 
+
+Trataremos a lista de novas funcionalidades e ajustes no design para a nova edição do evento.
+
+### Inserir
+
+- [x] fazer da página da edição 2024 uma opção do menu
+- [x] na versão 2024: 
+    - [x] inserir um botão para ir para a versão 2025
+    - [x] adicionar "edição 2024" com destaque 
+- [x] contador regressivo 
+- [x] data e local : CONFIRMADO
+- [] patrocinador : CONFIRMADO
+- [] inserir imagens do evento
+- [x] proposta de apoio 2025 (apresentei para a VOL)
+- [] verificar google maps 
+- [ ] Quero a logo com 2025
+
+### Remover
+
+- [x] programação 
+- [x] patrocinadores
 
 ## 📦 Instalação e Uso
 
@@ -82,8 +197,28 @@ Este projeto está licenciado sob a Licença BSD de 2 Cláusulas.
 
 Para mais informações, consulte o arquivo [LICENSE](LICENSE).
 
-
 ## 👥 Autores
 
 - **Tech hub JF** - [LinkedIn](https://www.linkedin.com/company/tech-hub-jf/)
 
+
+    <div id='1' className="w-full h-[39rem] relative flex flex-col items-center justify-center">
+      <img
+        src={logoCodeSmall}
+        srcSet={`${logoCodeSmall} 400w, ${logoCode} 600w`}
+        sizes="(max-width: 640px) 400px, 600px"
+        className='absolute h-48 left-50 z-50 sm:h-[220px] md:top-52 md:h-[300px]'
+        alt="Logo Code"
+      />
+      <Header />
+      <div className='bg-black w-full h-full absolute opacity-60'>
+        
+      </div>
+      <img
+        src={codeMedium}
+        srcSet={`${codeSmall} 600w, ${codeMedium} 1200w, ${codeLarge} 1800w`}
+        sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        alt="Imagem codeXperience 2023"
+        className="object-cover w-full h-full"
+      />
+    </div>  
