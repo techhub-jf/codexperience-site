@@ -26,6 +26,7 @@ const schedule: ScheduleItem[] = [
 ];
 
 const ScheduleTable: React.FC = () => {
+  return '';
   return (
     <div id="4" className="bg-black p-4 text-white">
       {/* Título Principal */}

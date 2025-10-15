@@ -59,6 +59,7 @@ interface Talker {
 }
 
 export default function Talks() {
+  return '';
   return (
     <div id='2' className='h-full w-full flex flex-col items-center bg-black pt-20 pb-8 gap-4 sm:gap-16'>
       <div className='space-y-4 flex justify-center flex-col max-w-xl lg:max-w-7xl'>

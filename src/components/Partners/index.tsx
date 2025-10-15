@@ -29,6 +29,7 @@ export default function Partners() {
   const uniUrl = "https://www.uniacademia.edu.br/"
   const pdfUrl = "https://drive.google.com/file/d/1r5g3w35pHYmwihWb2_CaHu-KhT76XdjZ/view?usp=sharing"
 
+  return '';
   return (
     <div id='6' className="w-full bg-black py-24 flex flex-col justify-center items-center gap-8 sm:gap-12">
       <h3 className="text-white text-center text-2xl sm:text-5xl lg:max-w-7xl">Veja abaixo nossos parceiros</h3>
