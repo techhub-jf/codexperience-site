@@ -48,17 +48,7 @@ export default function Header() {
             <div className="flex h-24 items-center justify-end lg:justify-center">
               <div className="flex items-center">
                 <div className="flex-shrink-0"></div>
-                {/* ✅ BOTÃO MOBILE */}
-                <div className="block lg:hidden mr-2">
-                  <a
-                    href="https://codexperience.com.br/2024"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center justify-center px-3 py-2 bg-gradient-to-r from-purple-500 to-blue-500 text-white font-semibold rounded-md shadow-md text-sm hover:opacity-90 transition-all"
-                  >
-                    🚀 Veja como foi a EDIÇÃO 2024
-                  </a>
-                </div>
+                 {/* ✅ BOTÃO MOBILE */}
                 {/* ✅ MENU DESKTOP */}
                 <div className="hidden lg:block">
                   <ul
@@ -68,16 +58,6 @@ export default function Header() {
                     )}
                   >
                     {/* Botão Desktop */}
-                    <li>
-                      <a
-                        href="https://codexperience.com.br/2024"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center justify-center px-4 py-2 bg-gradient-to-r from-purple-500 to-blue-500 text-white font-semibold rounded-lg shadow-lg hover:opacity-90 transition-all"
-                      >
-                        🚀 Veja como foi a EDIÇÃO 2024
-                      </a>
-                    </li>
 
                     {/* Itens do menu */}
                     {sectionsLP.map((session) => (
