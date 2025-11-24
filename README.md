@@ -135,6 +135,7 @@ Trataremos a lista de novas funcionalidades e ajustes no design para a nova edi�
 - [x] Data do 2025 
 - [x] logo com 2025
 - [x] verificar google maps 
+- [x] Link de apoio
 
 ### Seções Novas
 
