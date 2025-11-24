@@ -125,25 +125,23 @@ CODExPERIENCE-SITE/
 
 Trataremos a lista de novas funcionalidades e ajustes no design para a nova edição do evento.
 
-### Inserir
+### Seções Atuais
 
-- [x] fazer da página da edição 2024 uma opção do menu
-- [x] na versão 2024: 
-    - [x] inserir um botão para ir para a versão 2025
-    - [x] adicionar "edição 2024" com destaque 
-- [x] contador regressivo 
-- [x] data e local : CONFIRMADO
-- [] patrocinador : CONFIRMADO
-- [] inserir imagens do evento
-- [x] proposta de apoio 2025 (apresentei para a VOL)
+- [x] O Evento
+- [x] Inscrições
+- [x] Local 
+- [x] contador regressivo  
+- [] Data 
+
+### Seções Novas
+
+- [] edição 2024 uma opção do menu
+- [] programação 
+- [] patrocinadores
+- [] imagens do evento 
 - [] verificar google maps 
-- [ ] Quero a logo com 2025
-
-### Remover
-
-- [x] programação 
-- [x] patrocinadores
-
+- [x] logo com 2025
+ 
 ## 📦 Instalação e Uso
 
 ### Pré-requisitos
