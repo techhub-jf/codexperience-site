@@ -45,8 +45,7 @@ export default function Hero() {
             2025
           </span>
         </div>
-        
-        {/* CÓDIGO REVISADO: Data por extenso - Margem positiva (mt-6) garante que fique abaixo */}
+         
         <p
           className="
             mt-6 /* Espaçamento de 1.5rem abaixo da logo */
@@ -64,8 +63,7 @@ export default function Hero() {
           29 de novembro de 2025
         </p>
 
-      </div>
-      {/* Fim do Container da Logo e Data */}
+      </div> 
 
       <Header />
 
