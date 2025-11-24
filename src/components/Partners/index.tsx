@@ -18,13 +18,10 @@ import techHubSmall from '@assets/tech_hubSmall.webp'
 
 export default function Partners() {
 
-  const devopsUrl = "https://devopsdays.org/events/2024-juiz-de-fora/welcome/"  
-  const elasticUrl = "https://www.elastic.co/"
+  const devopsUrl = "https://devopsdays.org/events/2024-juiz-de-fora/welcome/"
   const m3OculosUrl = "https://m3oculos.com.br/"
-  const medeirosGourmetBuffetUrl = "https://www.instagram.com/medeirosgourmetbuffet/"
   const cafeDasMinasUrl = "https://www.instagram.com/cafe_das_minas/"
-  const techUrl = "https://techhubjf.org/"  
-  const rubeusUrl = "https://rubeus.com.br/"
+  const techUrl = "https://techhubjf.org/"
   const uniUrl = "https://www.uniacademia.edu.br/"
   const pdfUrl = "https://drive.google.com/file/d/1zhDkzJ1jQWMHU0KTvIKQdHtdRUDCOx2w/view"
  
@@ -33,7 +30,7 @@ export default function Partners() {
       <h3 className="text-white text-center text-2xl sm:text-5xl lg:max-w-7xl">Veja abaixo nossos parceiros</h3>
       <h3 className="text-white text-center px-2 text-lg max-w-72 sm:max-w-xl sm:text-4xl lg:max-w-7xl">Quer se juntar com quem faz o CodeXperience acontecer?</h3>
       <h3 className="text-white text-center px-2 text-lg max-w-80 sm:max-w-xl sm:text-4xl lg:max-w-7xl">Clique no botão abaixo, ou entre em contato pelo email
-         
+
         <a className='font-bold' href="mailto:codexperiencezonadamata@gmail.com">codexperiencezonadamata@gmail.com</a>
       </h3>
       <a className="text-center rounded-xl w-72 text-black py-2 px-8 text-xl bg-[#0af40c] hover:bg-[#be73ed] hover:text-white transition duration-1000 ease-in-out sm:px-12 sm:py-4 sm:w-96 md:text-3xl"
@@ -41,7 +38,7 @@ export default function Partners() {
       >Patrocine o melhor evento da região</a>
 
       <div className="max-w-72 w-full flex flex-col gap-8 sm:max-w-xl lg:gap-16 lg:max-w-7xl">
-        
+
         <div className="w-full rounded-3xl flex items-center border">
           <p className="text-[#E5E4E2] -rotate-90 w-48 h-[88px] -ml-10 flex justify-center items-center rounded-3xl text-xl md:text-4xl font-bold lg:-ml-8">
             PLATINA
@@ -59,18 +56,6 @@ export default function Partners() {
                 />
               </a>
             </div>
-  
-            <div>
-              <a href={rubeusUrl} className='cursor-pointer' target='_blank' rel="noopener noreferrer">
-                <img
-                  src={rubeusSmall}
-                  srcSet={`${rubeusSmall} 126w, ${rubeus} 350w`}
-                  sizes="(max-width: 640px) 126px, 350px"
-                  alt="logo Rubeus patrocinador platina"
-                  className="mt-5 sm:max-w-[350px] sm:max-h-[250px] sm:ms-0 sm:mt-0"
-                />
-              </a>
-            </div> 
 
           </div>
         </div>
@@ -102,18 +87,6 @@ export default function Partners() {
             <p className="text-[#0AF40C] -rotate-90 w-48 -ml-5 flex justify-center items-center rounded-3xl text-xl md:text-3xl font-bold">PARCEIROS</p>
 
             <div className='my-10 mx-10 h-2/3 items-center justify-center flex flex-wrap gap-16 md:max-w-7xl'>
-
-              <div>
-                <a className='cursor-pointer' target='_blank' rel="noopener noreferrer" href={elasticUrl}>
-                  <img
-                    src={elasticSmall}
-                    srcSet={`${elasticSmall} 150w, ${elastic} 300w`}
-                    sizes="(max-width: 640px) 150px, 300px"
-                    alt="logo Elastic parceiro"
-                    className="mt-5 sm:max-w-[250px] sm:max-h-[150px] sm:ms-0 sm:mt-0"
-                  />
-                </a>
-              </div>
 
               <div>
                 <a className='cursor-pointer' target='_blank' rel="noopener noreferrer" href={devopsUrl}>

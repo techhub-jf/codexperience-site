@@ -41,7 +41,7 @@ export default function Talks() {
         {talkers.map((talk) => (
           <div key={talk.id}>
             <a href={talk.link} target='_blank' rel="noopener noreferrer" className='space-y-4 flex flex-col items-center'>
-              <div className='w-60 h-80 rounded-xl border-green-500 overflow-hidden border-2 p-6'>
+              <div className='w-60 h-60 rounded-xl border-green-500 overflow-hidden border-2 p-6'>
                 <img src={talk.talker} alt={`Foto de ${talk.name}`} className='w-full h-full object-cover -mt-2 scale-[1.35]' />
               </div>
               <p className='bg-green-500 py-1 px-6 rounded-lg text-center font-semibold text-black'>{talk.name}</p>
