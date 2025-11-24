@@ -21,5 +21,9 @@ export const sectionsLP: SecttionType[] = [
     name_section: 'Local',
     id: '5',
   }, 
+  {
+    name_section: 'Patrocinadores',
+    id: '6',
+  }, 
 ]
 
