@@ -131,16 +131,17 @@ Trataremos a lista de novas funcionalidades e ajustes no design para a nova edi�
 - [x] Inscrições
 - [x] Local 
 - [x] contador regressivo  
-- [] Data 
+- [x] Data do 2025 
 
 ### Seções Novas
 
-- [] edição 2024 uma opção do menu
-- [] programação 
-- [] patrocinadores
-- [] imagens do evento 
-- [] verificar google maps 
 - [x] logo com 2025
+- [] palestrantes 
+- [] patrocinadores
+- [] programação 
+- [] verificar google maps 
+- [] imagens do evento 
+- [] edição 2024 uma opção do menu
  
 ## 📦 Instalação e Uso
 
