@@ -28,9 +28,9 @@ function App() {
       <Talks />
       <ScheduleTable />
       <Parallax />
-      <Location />
-      <Divider height={1} />
       <Pass />
+      <Divider height={1} />
+      <Location />
       <Divider height={5} />
       <Partners />
       <Divider height={1} />

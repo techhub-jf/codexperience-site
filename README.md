@@ -128,15 +128,15 @@ Trataremos a lista de novas funcionalidades e ajustes no design para a nova edi�
 ### Seções Atuais
 
 - [x] O Evento
+- [x] palestrantes 
 - [x] Inscrições
 - [x] Local 
 - [x] contador regressivo  
 - [x] Data do 2025 
+- [x] logo com 2025
 
 ### Seções Novas
 
-- [x] logo com 2025
-- [o] palestrantes 
 - [] patrocinadores
 - [] programação 
 - [] verificar google maps 
