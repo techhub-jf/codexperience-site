@@ -13,7 +13,7 @@ import medeirosGourmetBuffet from '@assets/medeiros-gourmet-buffet.webp'
 import medeirosGourmetBuffetSmall from '@assets/medeiros-gourmet-buffet.webp'
 import techHub from '@assets/tech_hub.webp'
 import devOpsSmall from '@assets/devopsSmall.webp'
-import techHubSmall from '@assets/tech_hubSmall.webp'
+import techHubSmall from '@assets/tech_hubSmall.webp' 
  
 
 export default function Partners() {
@@ -70,19 +70,7 @@ export default function Partners() {
                   className="mt-5 sm:max-w-[350px] sm:max-h-[250px] sm:ms-0 sm:mt-0"
                 />
               </a>
-            </div>
- 
-            <div>
-              <a href={m3OculosUrl} className='cursor-pointer' target='_blank' rel="noopener noreferrer">
-                <img
-                  src={m3OculosSmall}
-                  srcSet={`${m3OculosSmall} 126w, ${m3Oculos} 350w`}
-                  sizes="(max-width: 640px) 126px, 350px"
-                  alt="logo M3oculos patrocinador platina"
-                  className="mt-5 sm:max-w-[350px] sm:max-h-[250px] sm:ms-0 sm:mt-0"
-                />
-              </a>
-            </div>
+            </div> 
 
           </div>
         </div>
@@ -92,30 +80,7 @@ export default function Partners() {
             Bronze
           </p> 
           <div className='my-10 mx-10 h-2/3 items-center justify-center flex flex-wrap gap-16 md:max-w-7xl'>
- 
-            <div>
-              <a href={uniUrl} className='cursor-pointer' target='_blank' rel="noopener noreferrer">
-                <img
-                  src={uniAcademiaSmall}
-                  srcSet={`${uniAcademiaSmall} 150w, ${uniAcademia} 250w`}
-                  sizes="(max-width: 640px) 150px, 250px"
-                  alt="logo UniAcademia patrocinador platina"
-                  className="mt-5 sm:max-w-[350px] sm:max-h-[250px] sm:ms-0 sm:mt-0"
-                />
-              </a>
-            </div>
   
-            <div>
-              <a href={rubeusUrl} className='cursor-pointer' target='_blank' rel="noopener noreferrer">
-                <img
-                  src={rubeusSmall}
-                  srcSet={`${rubeusSmall} 126w, ${rubeus} 350w`}
-                  sizes="(max-width: 640px) 126px, 350px"
-                  alt="logo Rubeus patrocinador platina"
-                  className="mt-5 sm:max-w-[350px] sm:max-h-[250px] sm:ms-0 sm:mt-0"
-                />
-              </a>
-            </div>
  
             <div>
               <a href={m3OculosUrl} className='cursor-pointer' target='_blank' rel="noopener noreferrer">
@@ -184,19 +149,7 @@ export default function Partners() {
                     className="mt-5 sm:max-w-[250px] sm:max-h-[150px] sm:ms-0 sm:mt-0"
                   />
                 </a>
-              </div>
-
-              <div>
-                <a className='cursor-pointer' target='_blank' rel="noopener noreferrer" href={medeirosGourmetBuffetUrl}>
-                  <img
-                    src={medeirosGourmetBuffetSmall}
-                    srcSet={`${medeirosGourmetBuffetSmall} 150w, ${medeirosGourmetBuffet} 300w`}
-                    sizes="(max-width: 640px) 150px, 300px"
-                    alt="logo Medeiros Gourmet Buffet parceiro"
-                    className="mt-5 sm:max-w-[250px] sm:max-h-[150px] sm:ms-0 sm:mt-0"
-                  />
-                </a>
-              </div>
+              </div> 
             </div>
           </div>
         </div>

@@ -134,12 +134,15 @@ Trataremos a lista de novas funcionalidades e ajustes no design para a nova edi�
 - [x] contador regressivo  
 - [x] Data do 2025 
 - [x] logo com 2025
+- [x] verificar google maps 
 
 ### Seções Novas
 
 - [] patrocinadores
+  - platina: rocketseat, rubeus, uniacademia
+  - bronze: byteclass, m3 oculos
+  - apoiadores: elastic; devopsdays; tech hub jf; café das minas; entre chaves, capivaratech, bytesbreja, bq
 - [] programação 
-- [] verificar google maps 
 - [] imagens do evento 
 - [] edição 2024 uma opção do menu
  
