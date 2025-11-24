@@ -29,9 +29,9 @@ export default function Partners() {
     <div id='6' className="w-full bg-black py-24 flex flex-col justify-center items-center gap-8 sm:gap-12">
       <h3 className="text-white text-center text-2xl sm:text-5xl lg:max-w-7xl">Veja abaixo nossos parceiros</h3>
       <h3 className="text-white text-center px-2 text-lg max-w-72 sm:max-w-xl sm:text-4xl lg:max-w-7xl">Quer se juntar com quem faz o CodeXperience acontecer?</h3>
-      <h3 className="text-white text-center px-2 text-lg max-w-80 sm:max-w-xl sm:text-4xl lg:max-w-7xl">Clique no botão abaixo, ou entre em contato pelo email
+      <h3 className="text-white text-center px-2 text-lg max-w-80 sm:max-w-xl sm:text-4xl lg:max-w-7xl">Clique no botão abaixo, ou entre em contato pelo email 
 
-        <a className='font-bold' href="mailto:codexperiencezonadamata@gmail.com">codexperiencezonadamata@gmail.com</a>
+        <a className='font-bold' href="mailto:codexperiencezonadamata@gmail.com"> codexperiencezonadamata@gmail.com</a>
       </h3>
       <a className="text-center rounded-xl w-72 text-black py-2 px-8 text-xl bg-[#0af40c] hover:bg-[#be73ed] hover:text-white transition duration-1000 ease-in-out sm:px-12 sm:py-4 sm:w-96 md:text-3xl"
         href={pdfUrl} target="_blank" rel="noopener noreferrer"

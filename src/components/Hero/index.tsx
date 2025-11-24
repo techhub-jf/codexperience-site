@@ -1,5 +1,5 @@
 import logoCode from '@assets/logo_code.webp';
-import logoCode2025 from '@assets/2025-logo-top.png';
+import logoCode2025 from '@assets/logo-2025.png';
 import logoCodeSmall from '@assets/codeSmall.webp';
 import codeSmall from '@assets/small2023.webp';
 import codeMedium from '@assets/medium2023.webp';
@@ -22,28 +22,6 @@ export default function Hero() {
             alt="Logo CodeExperience"
             className="h-48 sm:h-[220px] md:h-[300px] object-contain"
           /> 
-          <span
-            className="
-              absolute
-              text-transparent 
-              bg-clip-text 
-              bg-gradient-to-r 
-              from-purple-400 
-              via-pink-500 
-              to-blue-500 
-              font-extrabold 
-              text-6xl 
-              md:text-7xl 
-              drop-shadow-[0_4px_10px_rgba(0,0,0,0.6)]
-              transform 
-              rotate-[-20deg] 
-              translate-x-[60%] 
-              -translate-y-[40%]
-              animate-pulse
-            "
-          >
-            2025
-          </span>
         </div>
          
         <p
