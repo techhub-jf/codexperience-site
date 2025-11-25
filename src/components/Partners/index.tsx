@@ -5,6 +5,12 @@ import rocketseat from '@assets/rocketseat.png'
 import rocketseatSmall from '@assets/rocketseat.png'
 import bytesBrejas from '@assets/BytesBrejas.png'
 import bytesBrejasSmall from '@assets/BytesBrejas.png'
+import entreChaves from '@assets/entrechaves.png'
+import entreChavesSmall from '@assets/entrechaves.png'
+import capivaraTech from '@assets/capivaraTech.png'
+import capivaraTechSmall from '@assets/capivaraTech.png'
+import byteClass from '@assets/byteClass.png'
+import byteClassSmall from '@assets/byteClass.png'
 import devOps from '@assets/devopsday.webp'
 import m3Oculos from '@assets/m3oculos.webp'
 import m3OculosSmall from '@assets/m3oculos.webp'
@@ -12,7 +18,7 @@ import cafeDasMinas from '@assets/cafe-das-minas.webp'
 import cafeDasMinasSmall from '@assets/cafe-das-minas.webp'
 import techHub from '@assets/tech_hub.webp'
 import devOpsSmall from '@assets/devopsSmall.webp'
-import techHubSmall from '@assets/tech_hubSmall.webp' 
+import techHubSmall from '@assets/tech_hubSmall.webp'
  
 
 export default function Partners() {
@@ -25,6 +31,9 @@ export default function Partners() {
   const pdfUrl = "https://drive.google.com/file/d/1zhDkzJ1jQWMHU0KTvIKQdHtdRUDCOx2w/view"
   const rocketseatUrl = "https://rocketseat.com.br/"
   const bytesBrejasUrl = 'https://www.instagram.com/bytesbrejas/'
+  const entreChavesUrl = 'https://www.dtidigital.com.br/entrechaves'
+  const capivaraTechUrl = 'https://www.instagram.com/capivara_tech_jf/'
+  const byteClassUrl = 'https://byteclass.dev/'
  
   return (
     <div id='6' className="w-full bg-black py-24 flex flex-col justify-center items-center gap-8 sm:gap-12">
@@ -143,12 +152,47 @@ export default function Partners() {
                     src={bytesBrejasSmall}
                     srcSet={`${bytesBrejasSmall} 160w, ${bytesBrejas} 350w`}
                     sizes="(max-width: 640px) 160px, 350px"
-                    alt="logo Café das Minas parceiro"
-                    className="mt-5 sm:max-w-[250px] sm:max-h-[150px] sm:ms-0 sm:mt-0"
+                    alt="logo Bytes && Brejas parceiro"
+                    className="mt-5 sm:max-w-[200px] sm:max-h-[150px] sm:ms-0 sm:mt-0"
                   />
                 </a>
               </div>
 
+              <div>
+                <a className='cursor-pointer' href={entreChavesUrl} target='_blank' rel="noopener noreferrer">
+                  <img
+                    src={entreChavesSmall}
+                    srcSet={`${entreChavesSmall} 160w, ${entreChaves} 350w`}
+                    sizes="(max-width: 640px) 160px, 350px"
+                    alt="logo Entre Chaves parceiro"
+                    className="mt-5 sm:max-w-[180px] sm:max-h-[150px] sm:ms-0 sm:mt-0"
+                  />
+                </a>
+              </div>
+
+              <div>
+                <a className='cursor-pointer' href={capivaraTechUrl} target='_blank' rel="noopener noreferrer">
+                  <img
+                    src={capivaraTechSmall}
+                    srcSet={`${capivaraTechSmall} 160w, ${capivaraTech} 350w`}
+                    sizes="(max-width: 640px) 160px, 350px"
+                    alt="logo Capivara Tech parceiro"
+                    className="mt-5 sm:max-w-[180px] sm:max-h-[150px] sm:ms-0 sm:mt-0"
+                  />
+                </a>
+              </div>
+
+              <div>
+                <a className='cursor-pointer' href={byteClassUrl} target='_blank' rel="noopener noreferrer">
+                  <img
+                    src={byteClassSmall}
+                    srcSet={`${byteClassSmall} 160w, ${byteClass} 350w`}
+                    sizes="(max-width: 640px) 160px, 350px"
+                    alt="logo Byte Class parceiro"
+                    className="mt-5 sm:max-w-[180px] sm:max-h-[150px] sm:ms-0 sm:mt-0"
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </div>
