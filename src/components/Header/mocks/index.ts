@@ -18,6 +18,10 @@ export const sectionsLP: SecttionType[] = [
     id: '3',
   },
   {
+    name_section: 'Cronograma',
+    id: '4',
+  },
+  {
     name_section: 'Local',
     id: '5',
   }, 
