@@ -101,6 +101,17 @@ export default function Partners() {
               </a>
             </div>
 
+              <div>
+                <a className='cursor-pointer' href={byteClassUrl} target='_blank' rel="noopener noreferrer">
+                  <img
+                    src={byteClassSmall}
+                    srcSet={`${byteClassSmall} 160w, ${byteClass} 350w`}
+                    sizes="(max-width: 640px) 160px, 350px"
+                    alt="logo Byte Class parceiro"
+                    className="mt-5 sm:max-w-[230px] sm:max-h-[250px] sm:ms-0 sm:mt-0"
+                  />
+                </a>
+              </div>
           </div>
         </div>
 
@@ -182,17 +193,6 @@ export default function Partners() {
                 </a>
               </div>
 
-              <div>
-                <a className='cursor-pointer' href={byteClassUrl} target='_blank' rel="noopener noreferrer">
-                  <img
-                    src={byteClassSmall}
-                    srcSet={`${byteClassSmall} 160w, ${byteClass} 350w`}
-                    sizes="(max-width: 640px) 160px, 350px"
-                    alt="logo Byte Class parceiro"
-                    className="mt-5 sm:max-w-[180px] sm:max-h-[150px] sm:ms-0 sm:mt-0"
-                  />
-                </a>
-              </div>
             </div>
           </div>
         </div>
