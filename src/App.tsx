@@ -8,7 +8,7 @@ import Talks from '@components/Talks';
 import '/index.css';
 import Pass from '@components/Pass';
 import Parallax from '@components/Parallax';
-import ScheduleTable from '@components/Schedule';
+import ScheduleTable from '@components/Schedule2025';
 
 function App() { 
 
