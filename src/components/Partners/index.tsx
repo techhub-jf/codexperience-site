@@ -23,7 +23,7 @@ import techHubSmall from '@assets/tech_hubSmall.webp'
 
 export default function Partners() {
 
-  const devopsUrl = "https://devopsdays.org/events/2024-juiz-de-fora/welcome/"
+  const devopsUrl = "https://devopsdays.org/events/2025-juiz-de-fora/welcome/"
   const m3OculosUrl = "https://m3oculos.com.br/"
   const cafeDasMinasUrl = "https://www.instagram.com/cafe_das_minas/"
   const techUrl = "https://techhubjf.org/"
