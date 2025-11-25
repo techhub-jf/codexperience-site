@@ -50,7 +50,7 @@ export default function Partners() {
       <div className="max-w-72 w-full flex flex-col gap-8 sm:max-w-xl lg:gap-16 lg:max-w-7xl">
 
         <div className="w-full rounded-3xl flex items-center border">
-          <p className="text-[#E5E4E2] -rotate-90 w-48 h-[88px] -ml-10 flex justify-center items-center rounded-3xl text-xl md:text-4xl font-bold lg:-ml-8">
+          <p className="text-[#E5E4E2] -rotate-90 w-48 h-[88px] flex justify-center items-center rounded-3xl text-xl md:text-4xl font-bold lg:-ml-8">
             PLATINA
           </p> 
           <div className='my-10 mx-10 h-2/3 items-center justify-center flex flex-wrap gap-16 md:max-w-7xl'>
@@ -83,8 +83,8 @@ export default function Partners() {
         </div>
 
         <div className="w-full rounded-3xl flex items-center border">
-          <p className="text-[#CD7F32] -rotate-90 w-48 h-[88px] -ml-10 flex justify-center items-center rounded-3xl text-xl md:text-4xl font-bold lg:-ml-8">
-            Bronze
+          <p className="text-[#CD7F32] -rotate-90 w-48 h-[88px] flex justify-center items-center rounded-3xl text-xl md:text-4xl font-bold lg:-ml-8">
+            BRONZE
           </p> 
           <div className='my-10 mx-10 h-2/3 items-center justify-center flex flex-wrap gap-16 md:max-w-7xl'>
   
