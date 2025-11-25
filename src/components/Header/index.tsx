@@ -47,19 +47,14 @@ export default function Header() {
           <div>
             <div className="flex h-24 items-center justify-end lg:justify-center">
               <div className="flex items-center">
-                <div className="flex-shrink-0"></div>
-                 {/* ✅ BOTÃO MOBILE */}
-                {/* ✅ MENU DESKTOP */}
+                <div className="flex-shrink-0"></div> 
                 <div className="hidden lg:block">
                   <ul
                     className={classNames(
                       scroll ? "backdrop-blur-sm bg-black/10 " : "",
                       "top-4 flex space-x-4 p-2 bg-gray-800 rounded-lg bg-opacity-20 z-10"
                     )}
-                  >
-                    {/* Botão Desktop */}
-
-                    {/* Itens do menu */}
+                  > 
                     {sectionsLP.map((session) => (
                       <li
                         onClick={(e) => {

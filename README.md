@@ -125,25 +125,28 @@ CODExPERIENCE-SITE/
 
 Trataremos a lista de novas funcionalidades e ajustes no design para a nova edição do evento.
 
-### Inserir
+### Seções Atuais
 
-- [x] fazer da página da edição 2024 uma opção do menu
-- [x] na versão 2024: 
-    - [x] inserir um botão para ir para a versão 2025
-    - [x] adicionar "edição 2024" com destaque 
-- [x] contador regressivo 
-- [x] data e local : CONFIRMADO
-- [] patrocinador : CONFIRMADO
-- [] inserir imagens do evento
-- [x] proposta de apoio 2025 (apresentei para a VOL)
-- [] verificar google maps 
-- [ ] Quero a logo com 2025
+- [x] O Evento
+- [x] palestrantes 
+- [x] Inscrições
+- [x] Local 
+- [x] contador regressivo  
+- [x] Data do 2025 
+- [x] logo com 2025
+- [x] verificar google maps 
+- [x] Link de apoio
 
-### Remover
+### Seções Novas
 
-- [x] programação 
-- [x] patrocinadores
-
+- [] patrocinadores
+  - platina: rocketseat, rubeus, uniacademia
+  - bronze: byteclass, m3 oculos
+  - apoiadores: elastic; devopsdays; tech hub jf; café das minas; entre chaves, capivaratech, bytesbreja, bq
+- [] programação 
+- [] imagens do evento 
+- [] edição 2024 uma opção do menu
+ 
 ## 📦 Instalação e Uso
 
 ### Pré-requisitos
