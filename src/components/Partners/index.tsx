@@ -1,16 +1,15 @@
-import rubeus from '@assets/rubeus.webp'
-import rubeusSmall from '@assets/rubeusSmall.webp'
+
 import uniAcademia from '@assets/uniLogo.webp'
 import uniAcademiaSmall from '@assets/uniSmall.webp'
+import rocketseat from '@assets/rocketseat.png'
+import rocketseatSmall from '@assets/rocketseat.png'
+import bytesBrejas from '@assets/BytesBrejas.png'
+import bytesBrejasSmall from '@assets/BytesBrejas.png'
 import devOps from '@assets/devopsday.webp'
-import elastic from '@assets/elastic.webp'
-import elasticSmall from '@assets/elastic.webp'
 import m3Oculos from '@assets/m3oculos.webp'
 import m3OculosSmall from '@assets/m3oculos.webp'
 import cafeDasMinas from '@assets/cafe-das-minas.webp'
 import cafeDasMinasSmall from '@assets/cafe-das-minas.webp'
-import medeirosGourmetBuffet from '@assets/medeiros-gourmet-buffet.webp'
-import medeirosGourmetBuffetSmall from '@assets/medeiros-gourmet-buffet.webp'
 import techHub from '@assets/tech_hub.webp'
 import devOpsSmall from '@assets/devopsSmall.webp'
 import techHubSmall from '@assets/tech_hubSmall.webp' 
@@ -24,6 +23,8 @@ export default function Partners() {
   const techUrl = "https://techhubjf.org/"
   const uniUrl = "https://www.uniacademia.edu.br/"
   const pdfUrl = "https://drive.google.com/file/d/1zhDkzJ1jQWMHU0KTvIKQdHtdRUDCOx2w/view"
+  const rocketseatUrl = "https://rocketseat.com.br/"
+  const bytesBrejasUrl = 'https://www.instagram.com/bytesbrejas/'
  
   return (
     <div id='6' className="w-full bg-black py-24 flex flex-col justify-center items-center gap-8 sm:gap-12">
@@ -52,6 +53,18 @@ export default function Partners() {
                   srcSet={`${uniAcademiaSmall} 150w, ${uniAcademia} 250w`}
                   sizes="(max-width: 640px) 150px, 250px"
                   alt="logo UniAcademia patrocinador platina"
+                  className="mt-5 sm:max-w-[350px] sm:max-h-[250px] sm:ms-0 sm:mt-0"
+                />
+              </a>
+            </div>
+
+            <div>
+              <a href={rocketseatUrl} className='cursor-pointer' target='_blank' rel="noopener noreferrer">
+                <img
+                  src={rocketseatSmall}
+                  srcSet={`${rocketseatSmall} 150w, ${rocketseat} 250w`}
+                  sizes="(max-width: 640px) 150px, 250px"
+                  alt="logo Rocketseat patrocinador platina"
                   className="mt-5 sm:max-w-[350px] sm:max-h-[250px] sm:ms-0 sm:mt-0"
                 />
               </a>
@@ -122,7 +135,20 @@ export default function Partners() {
                     className="mt-5 sm:max-w-[250px] sm:max-h-[150px] sm:ms-0 sm:mt-0"
                   />
                 </a>
-              </div> 
+              </div>
+
+              <div>
+                <a className='cursor-pointer' href={bytesBrejasUrl} target='_blank' rel="noopener noreferrer">
+                  <img
+                    src={bytesBrejasSmall}
+                    srcSet={`${bytesBrejasSmall} 160w, ${bytesBrejas} 350w`}
+                    sizes="(max-width: 640px) 160px, 350px"
+                    alt="logo Café das Minas parceiro"
+                    className="mt-5 sm:max-w-[250px] sm:max-h-[150px] sm:ms-0 sm:mt-0"
+                  />
+                </a>
+              </div>
+
             </div>
           </div>
         </div>
