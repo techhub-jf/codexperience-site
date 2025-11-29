@@ -24,7 +24,6 @@ function App() {
       style={{ paddingTop: 'env(safe-area-inset-top)', paddingBottom: 'env(safe-area-inset-bottom)' }}
     >
       <Hero />
-      //<Countdown />
       <Talks />
       <ScheduleTable />
       <Parallax />
